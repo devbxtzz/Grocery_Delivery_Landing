@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#00ff9f;
-    --black: #282626;
-    --light-color: #fff;
+    --green:springgreen;
+    --black: #012;
+    --light-color: whitesmoke;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
     --outline:.1rem solid rgba(0,0,0,.1);
@@ -74,7 +74,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:2rem 9%;
-    background:#fff;
+    background: #fff;
     box-shadow: var(--box-shadow);
 }
 
@@ -113,7 +113,7 @@ section{
 
 .header .icons div:hover{
     background: var(--green);
-    color:#282626;
+    color:#012;
 }
 
 #menu-btn{
@@ -144,14 +144,14 @@ section{
     background: none;
     text-transform: none;
     font-size: 1.6rem;
-    color: #282626;
+    color: #012;
     padding:0 1.5rem;
 }
 
 .header .search-form label{
     font-size: 2.2rem;
     padding-right: 1.5rem;
-    color: #282626;
+    color: #012;
     cursor: pointer;
 }
 
@@ -166,7 +166,7 @@ section{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width:35rem;
-    background: #282626;
+    background: #012;
 }
 
 .header .shopping-cart.active{
@@ -263,7 +263,7 @@ section{
 .header .login-form p{
     font-size: 1.4rem;
     padding:.5rem 0;
-    color:#282626;
+    color:#012;
 }
 
 .header .login-form p a{
@@ -535,7 +535,7 @@ section{
 }
 
 .footer{
-    background: #012;
+    background: #fff;
 }
 
 .footer .box-container{
@@ -557,7 +557,7 @@ section{
 .footer .box-container .box .links{
     display: block;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--black);
     padding:1rem 0;
 }
 
@@ -574,7 +574,7 @@ section{
 .footer .box-container .box p{
     line-height: 1.8;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--black);
     padding:1rem 0;
 }
 
@@ -590,7 +590,7 @@ section{
     border-radius: .5rem;
     background: #fff;
     font-size: 1.6rem;
-    color: #0f0f0f;
+    color: #012;
     text-transform: none;
 }
 
@@ -611,19 +611,8 @@ section{
 }
 
 .footer .credit span{
-    color: goldenrod;
+    color: var(--black);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
