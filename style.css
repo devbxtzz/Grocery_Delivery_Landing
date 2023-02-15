@@ -275,7 +275,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../image/home.jpg');
+    background: url('../image/bgimg.PNG');
    /** background-position: center; */
     background-size:cover;
     padding-top: 17rem;
@@ -288,7 +288,7 @@ section{
 }
 
 .home .content h3{
-    color: rgb(242, 226, 226);
+    color: rgb(0, 006, 006);
     font-size: 3rem;
 }
 
